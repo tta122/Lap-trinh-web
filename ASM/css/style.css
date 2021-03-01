@@ -1,0 +1,157 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container1 header img{
+    width: 100%;
+}
+input[type="text"]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+    position: absolute;
+        top: 25px;
+        left: 200px;
+    transition:0.6s ease-in-out;
+}
+input[type="text"]:focus{
+    width:500px;
+}
+.container nav{
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container footer{
+    border-top: 5px double black;
+    min-height: 100px;
+    line-height: 50px;
+    background-color: rgb(164, 26, 26);
+    clear: both;
+    color: white;
+}
+.container nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px grey;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul li:hover ul{
+    display:grid
+}
+.menu ul ul a:hover{
+    background-color: black;
+    color: white;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-variant: normal;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu ul ul li a{
+    color: black
+}
+.menu ul li a:hover{
+    color: yellow;
+}
+.container nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+aside h3{
+    background: black url(../image/icon-menu.png) no-repeat;
+    background-size: 40px 40px;
+    color: white;
+    height: 40px;
+    margin-top: 0px;
+    text-indent: 45px;
+    line-height: 40px;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 1px solid black;
+    color: black;
+    font-variant: normal;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background: url(../image/icon-menu2.png) no-repeat 3px;
+    background-size: 20px 20px;
+}
+.vmenu a:hover{
+    border-bottom: 1px dotted white;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+}
+article ul li a{
+    text-decoration: none;
+}
+article ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+article ul li img{
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,86 @@
+  *{
+    width: 100%;
+    padding: 10px;
+} 
+h2{
+    text-align: center;
+}
+.box-left{
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+.box-left img{
+    height: 40%;
+}
+.box-right a{
+    font-size: 16pt;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(33, 100, 245);
+
+}
+.box-right a:hover{
+    color: crimson;
+}
+.box-right>p{
+    padding: 10px;
+    line-height: 23px;
+    margin: 15px;
+}
+.tin-2 a{
+    font-size: 16pt;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(33, 100, 245);
+}
+.tin-2 a:hover{
+    color: crimson;
+}
+.tin-2>p{
+    padding: 10px;
+    line-height: 23px;
+    margin: 15px;
+}
+.tin-3 a{
+    margin-top: 15px;
+    font-size: 16pt;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(33, 100, 245);
+}
+.tin-3 a:hover{
+    color: crimson;
+}
+.tin-3>p{
+    padding: 10px;
+    line-height: 23px;
+    margin: 15px;
+}
+/* bài 2 */
+.box-r{
+    width: 70%;
+    background-color: rgb(151, 139, 70);
+    height: 500px;
+    float: left;
+}
+.box-l1{
+    width: 25%;
+  /*  background-color: rgb(228, 145, 21); */
+    height: 145px;
+    float: right;
+}
+.box-l2{
+    margin-top: 12px;
+    width: 25%;
+  /*  background-color: rgb(25, 104, 45); */
+    height: 145px;
+    float: right;
+}
+.box-l3{
+    margin-top: 12px;
+    width: 25%;
+  /*  background-color: rgb(122, 8, 113); */
+    height: 145px;
+    float: right;
+}

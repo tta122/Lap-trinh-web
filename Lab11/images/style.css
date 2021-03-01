@@ -1,0 +1,50 @@
+.box-center{
+    width: 80%;
+    margin: 0 auto;
+}
+td{
+    text-align: center;
+}
+th{ 
+    background-color:rgb(99, 197, 99);
+    color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid greenyellow; 
+    height: 450px;
+    
+}
+tr{
+    border: 2px solid blue; 
+}
+td{
+    border: 2px solid rgb(76, 119, 95);
+}
+th{
+    border: 2px solid gray;
+}
+tr:nth-child(2n+1){
+    background-color: whitesmoke;
+}
+tr:nth-child(2n){
+    background-color: rgb(211, 207, 207);
+}
+tr:nth-child(3)>td:nth-child(2){
+    color: red; 
+    font-weight: bold;
+}
+tr:nth-child(3)>td:nth-child(5){
+    color: red;
+}
+td:nth-child(3){
+    width: 80px;
+}
+td{
+    border-bottom: 3px solid rgb(118, 223, 135);
+}
+tr:last-child>td{
+    border: 2px solid rgb(76, 119, 95);
+}

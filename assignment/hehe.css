@@ -1,0 +1,117 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    max-width: none;
+    margin: 0px auto;
+}
+#header{
+    background-color: blue;
+    height: 80px;
+    margin-left: auto;
+}
+#header li{
+    font-size: 20px;
+    color: yellow;
+    padding: 0px 20px 0px 20px;
+    line-height: 80px;
+    list-style: none;
+    font-weight: bold;
+    float: left;
+}
+#header img{
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+}
+#menu{
+    background-color: rgb(228, 228, 228);
+    height: 40px;
+    width: 1000px;
+    margin-left: 12.5%;
+}
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul li{
+    float: left;
+    line-height: 40px;
+}
+#menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0px 20px;
+    color: black;
+    border-right: gray 1px   solid ;
+}
+#main #left{
+    background-color:white;
+    float: left;
+    width: 700px;
+    height: 1000px;
+    margin-left: 169px
+}
+#main #left .block h2{
+    text-align: center;
+
+}
+#main #left .block ul li{
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+#main #left .block ul li img{
+    border: 1px white solid;
+    width: 150px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+}
+#main #left .block ul li h3 a{
+    text-decoration: none;
+}
+#main #left .block ul li p a{
+    text-decoration: none;
+}
+#main #right{
+    float: right;
+    width: 300px;
+    height: 1000px;
+    margin-right: 180px;
+}
+#main #right .block {
+    border: lightpink solid 1px;
+    background-color:lightpink;
+}
+#main #right .block h2{
+    text-align: center;
+}
+#main #right .block ul li{
+    list-style: none;
+    clear: left;
+}
+#main #right .block ul li p{
+    padding-left: 10px ;
+    font-size: 15px;
+    clear: left;
+}
+#main #right .block ul li img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 10px;
+}
+#footer{
+    height: 100px;
+    clear: left;
+    margin-bottom: 10px;
+    background-color: cadetblue;
+}
+#footer ul h1{
+    color: yellow;
+}
+#footer ul li{
+    font-size: 15px;
+    color: white;
+}

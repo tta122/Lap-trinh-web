@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9_2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-group"> 
+        <form action=""
+               method="POST"      
+                enctype="multipart/form-data" >
+            <label for="">HỌ VÀ TÊN:</label><br>
+            <input type="text" name="Họ và tên" class="control"><br> <br>
+            <label for="">GIỚI TÍNH:</label>
+            <label> <input name="gender" type="radio" checked/>Nam</label>
+            <label> <input name="gender" type="radio"/>Nữ</label> <br> <br>
+            <label for="">HÌNH ẢNH:</label> <br>
+            <input name="photo" type="file"> <br> <br>
+            <label for="">QUỐC TỊCH:</label> <br>
+            <select name="" id="">
+                <option value="">VietNam</option>
+                <option value="">United States</option>
+                <option value="">United Kingdom</option>
+                <option value="">China</option>
+                <option value="">Korea</option>
+                <option value="">Japan</option>
+            </select> <br> <br>
+            <label for="">SỞ THÍCH:</label> <br>
+            <div>
+                <label> <input name="hobby" type="checkbox" value="1"/>THỂ THAO</label> 
+                <label> <input name="hobby" type="checkbox" value="1" checked/>DU LỊCH</label>
+                <label> <input name="hobby" type="checkbox" value="1"/>ÂM NHẠC</label>
+                <label> <input name="hobby" type="checkbox" value="1"/>ẨM THỰC</label> 
+            </div> <br> <br>
+            <label for="">GHI CHÚ:</label> <br>
+            <textarea name="" id="" cols="60" rows="3"></textarea> <br>
+            <hr>
+            <button type="submit" >Đăng ký</button>
+            <button type="reset" >Nhập lại</button>
+</body>
+</html>

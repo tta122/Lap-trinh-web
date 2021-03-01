@@ -1,0 +1,21 @@
+.form-group{
+    width: 50%;
+    margin: 0 auto;
+}
+label{
+    font-size: 12pt;
+    color: black;
+    font-weight: bold;
+}
+input{
+    margin: 5px 10px 10px 10px;
+    padding: 5px;
+    color: rgb(78, 71, 71);
+}
+.form-control{
+    width: 70%;
+}
+/* bài 2 */
+.control{
+    width: 80%;
+}
